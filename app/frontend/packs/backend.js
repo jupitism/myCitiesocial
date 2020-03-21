@@ -18,8 +18,8 @@ require("@rails/activestorage").start()
 // stimulus的
 import "controllers"
 
-import "styles/frontend"
+import "styles/backend"
 import "styles/shared"
 
-import "scripts/frontend"
+import "scripts/backend"
 import "scripts/shared"
