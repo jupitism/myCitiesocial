@@ -1,5 +1,13 @@
 @import 'bulma-carousel';
 
+.navbar {
+  padding: 0.4em;
+}
+
+.top-menu {
+  padding: 0.4em;
+}
+
 section.subscribe {
   h3 {
     margin-bottom: 1em;
@@ -9,5 +17,19 @@ section.subscribe {
 section.product_list {
   h2 {
     margin-bottom: 1em;
+  }
+}
+
+section.user-sign-up {
+  margin-bottom: 1.2em;
+  .actions {
+    margin-bottom: 0.6em;
+  }
+}
+
+section.user-sign-in {
+  margin-bottom: 1.2em;
+  .actions {
+    margin-bottom: 0.6em;
   }
 }
