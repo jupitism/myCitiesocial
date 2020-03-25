@@ -1,5 +1,6 @@
 class Product < ApplicationRecord
   include CodeGenerator
+  acts_as_paranoid
 
   belongs_to :vendor
 
