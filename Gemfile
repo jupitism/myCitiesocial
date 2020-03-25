@@ -21,6 +21,7 @@ gem 'devise', '~> 4.2'
 gem 'omniauth-google-oauth2', '~> 0.8.0'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'paranoia', '~> 2.4', '>= 2.4.2'
+gem 'friendly_id', '~> 5.3'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
