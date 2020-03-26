@@ -1,6 +1,8 @@
 class Product < ApplicationRecord
   include CodeGenerator
   acts_as_paranoid
+  
+  has_rich_text :description
 
   belongs_to :vendor
 
