@@ -5,6 +5,8 @@ class Product < ApplicationRecord
   has_rich_text :description
 
   belongs_to :vendor
+  has_many :skus
+  accepts_nested_attributes_for :skus, reject_if: :all_blank, allow_destroy: true
 
   validates :code, uniqueness: true
   validates :name, presence: true
